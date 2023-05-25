@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8"><title>Tandartsafspraak</title>
+</head>
+<body>
+<h3>Tandartsafspraak</h3><p>Deze tandartsenpraktijk bestaat al 60 jaar en is van vader op zoon op zoon gegaan. Wij bieden u persoonlijke aandacht en begeleiding bij angsten voor de tandarts, wil u een afspraak maken kun u uw gegevens hieronder achterlaten dan kunnen wij kijken wat we voor u kunnen doen. Wij zijn dus gespecialiseerd in het helpen bij angsten voor de tandarts. Ons team bestaat uit goed getrainde mensen die u gegarandeerd gerust kunnen stellen en zorgen voor een pijnloze ervaring. Ook kinderen kunnen terecht bij ons, zodat ze zonder angsten en op een goede proffesiele manier hun gebitsverzorging krijgen.
+</p>
+<img src="afbeeldingen/tandarts.webp" width="300" height="200"> <img src="afbeeldingen/tandarts sign.jpg" width="300" height="200"><img src="afbeeldingen/Jongen tandarts.jpg" width="300" height="300">
+<h2>Uw gegevens</h2>
+<form id="contactform" action="https://formspree.io/f/xlekklpr" method="post">
+<input type="text" name="naam" placeholder="Voor en achternaam">
+<br>
+<br>
+<input type="text" name="adres" placeholder="Straatnaam en huisnummer">
+<br>
+<br>
+<input type="tekst" name="postcode" placeholder="postcode">
+<br>
+<br>
+<input type="tekst" Name="telefoon nummer" placeholder="telefoon">
+<br>
+<br> 
+<input type="tekst" name="E-mail" placeholder="E-mail">
+<br>
+<br>
+<tr>
+<td><b>Uw geslacht</b></td> 
+<td>
+<input type="radio" name="geslacht" value="man" checked>Man 
+<input type="radio" name="geslacht" value="vrouw">Vrouw
+<input type="radio" name="geslacht" value="anders">Anders </td> <br><br>
+<h3>Welke gezondheisklachten heeft u?</h3>  
+<tr>
+<tr>
+<td><b> Selecteer minimaal een van de klachten </b></td> 
+<input type="checkbox" name="onderwerpen" value="kiespijn"> Kiespijn
+<input type="checkbox" name="onderwerpen" value="Tandvlees"> Bloedend tandvlees
+<input type="checkbox" name="onderwerpen" value="Gebroken tand"> Gebroken tand
+<input type="checkbox" name="onderwerpen" value="Gaatjes"> Gaatjes
+<input type="checkbox" name="onderwerpen" value="Slechte mondgeur"> Slechte mondgeur
+<br>
+<br>
+<td><b>Bent u bang voor de tandarts?</b></td>
+<td>
+<input type="radio" name="angst" value="ja"checked>ja
+<input type="radio" name="angst" value="nee" checked>nee
+<br>
+<br>
+<h2>Contactformulier</h2>
+<form method="post" action="bewaarInformatie.php">
+<tr><td><b>Uw naam</b>
+</td><td><input type="Name" name="naam"> 
+</td></tr>
+<br>
+<br>
+<tr><td><b>Uw adres</b>
+</td><td><input type="Adress" name="Adres"> 
+</td></tr>
+<br>
+<br>
+<tr><td><b>Uw geboortedatum</b>
+</td><td><input type="date" name="datum" max="2080-12-31">
+</td></tr>
+<br>
+<br>
+<td>Klachten toelichting</td><br>
+<td><textarea name ="bericht" maxlength ="1500">
+</textarea></td></tr>
+<button type="submit" name="Verzendknop">
+<strong>Verzend</strong></button>
+</form>
+</td>
+</body>
+</html>
